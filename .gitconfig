@@ -27,6 +27,7 @@
 	cln = clean -fd .
 	ff = "!sh -c \"git fetch upstream pull/$1/head; git checkout FETCH_HEAD\" -"
 	r = rebase --gpg-sign=kargakis@protonmail.com
+	revinit = update-ref -d HEAD
 [commit]
 	gpgSign = true
 [gpg]
