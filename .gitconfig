@@ -26,11 +26,10 @@
 	p = push origin
 	cln = clean -fd .
 	ff = "!sh -c \"git fetch upstream pull/$1/head; git checkout FETCH_HEAD\" -"
-	r = rebase --gpg-sign=kargakis@protonmail.ch
+	r = rebase --gpg-sign=kargakis@protonmail.com
 [commit]
 	gpgSign = true
 [gpg]
 	program = gpg
 [color]
 	ui = auto
-
