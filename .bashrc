@@ -9,6 +9,7 @@ alias ll='ls -Alh'
 alias kc='kubectl'
 alias dk='docker kill $(docker ps -q)'
 alias rmhist='cat /dev/null > ~/.bash_history && history -c && exit'
+alias rg='rg --hidden'
 
 function drm() {
 	if [[ -z "$1" ]]; then
